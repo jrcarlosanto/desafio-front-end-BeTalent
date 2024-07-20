@@ -1,0 +1,22 @@
+version: '3'
+services:
+  frontend:
+    build:
+      dockerfile: ./front-end/Dockerfile
+      context: . 
+    container_name: frontend
+    ports:
+      - 5173:5173
+    volumes:
+      - ./front-end:/app
+      - /app/node_modules
+    restart: always
+    entrypoint: ['npm', 'run']
+    command: [ 'docker']
+
+  api:
+    image: codfish/json-server:0.17.3
+    ports:
+      - 3000:80
+    volumes:
+      - ./json-server/db.json:/app/db.json:delegated
