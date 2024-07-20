@@ -1,13 +1,18 @@
 import { Route, Routes } from 'react-router-dom';
-import Initial from './pages/Initial';
-import Counter from './pages/Counter';
+import Initial from './pages/Ininital';
+import Header from './components/Header';
+import { GlobalStyle } from './styles/global-styles';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={ <Initial /> } />
-      <Route path="/counter" element={ <Counter /> } />
-    </Routes>
+    <>
+      <GlobalStyle />
+      <Routes>
+        <Route path="/" element={ <Header /> }>
+          <Route index element={ <Initial /> } />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
