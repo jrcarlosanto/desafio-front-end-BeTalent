@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
-import { HeaderBox, Img } from './styles';
+import { HeaderBox, Img, Main } from './styles';
 
 function Header() {
   return (
@@ -8,9 +8,9 @@ function Header() {
       <HeaderBox>
         <Img src={ logo } alt="logo" />
       </HeaderBox>
-      <main>
+      <Main>
         <Outlet />
-      </main>
+      </Main>
     </>
   );
 }

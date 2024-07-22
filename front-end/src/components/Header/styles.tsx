@@ -12,3 +12,8 @@ export const Img = styled.img`
     height: 35px;
     width: 44px;
 `;
+
+export const Main = styled.main`
+  display: flex;
+  justify-content: center;
+`;
