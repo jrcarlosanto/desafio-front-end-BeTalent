@@ -20,3 +20,4 @@ services:
       - 3000:80
     volumes:
       - ./json-server/db.json:/app/db.json:delegated
+    restart: always
