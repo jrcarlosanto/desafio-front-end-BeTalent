@@ -1,11 +1,11 @@
 import styled from 'styled-components';
-
+ 
 export const Container = styled.div`
   position: relative;
 `;
-
+ 
 export const InputElement = styled.input`
-  width: ${(props) => props.width || '287px'};
+  width: ${(props) => props.width};
   height: 48px;
   padding: 12px 16px;
   border-radius: 8px;
@@ -16,7 +16,7 @@ export const InputElement = styled.input`
   line-height: 18.75px;
   text-align: left;
 `;
-
+ 
 export const Img = styled.img`
   position: absolute;
   right: 10px;
