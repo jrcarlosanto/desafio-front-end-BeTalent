@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
 import { HeaderBox, Img, Main } from './styles';
-
+ 
 function Header() {
   return (
     <>
@@ -14,5 +14,5 @@ function Header() {
     </>
   );
 }
-
+ 
 export default Header;
