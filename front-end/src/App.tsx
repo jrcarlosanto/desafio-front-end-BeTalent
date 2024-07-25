@@ -7,6 +7,7 @@ import { GlobalStyle } from './styles/global-styles';
 import { getTheme, setTheme } from './utils/theme';
 import dark from './styles/themes/dark';
 import light from './styles/themes/light';
+import NotFound from './pages/NotFound';
 
 function App() {
   const [isDarkTheme, setIsDarkTheme] = useState(getTheme() === 'dark');
@@ -33,6 +34,7 @@ function App() {
         >
           <Route index element={ <Initial /> } />
         </Route>
+        <Route path="*" element={ <NotFound /> } />
       </Routes>
     </ThemeProvider>
   );
