@@ -9,6 +9,7 @@ declare module 'styled-components' {
       secondaryText: string,
       primary: string,
       secondary: string,
+      placeholder: string,
     }
   }
 }

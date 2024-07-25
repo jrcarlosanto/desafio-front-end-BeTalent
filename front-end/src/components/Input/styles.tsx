@@ -18,7 +18,7 @@ export const InputElement = styled.input`
   color: ${(props) => props.theme.colors.primaryText};
 
   &::placeholder{
-    color: ${(props) => props.theme.colors.primaryText};
+    color: ${(props) => props.theme.colors.placeholder};
   }
 `;
 
