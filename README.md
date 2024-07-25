@@ -107,17 +107,17 @@ Em ordem de relevância, avaliaremos:
 #### Dark Theme
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/cap-mobile-dark.png" width="600px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/cap-mobile-dark.png" width="300px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/notfound-mobile-dark.png" width="600px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/notfound-mobile-dark.png" width="300px">
 </p>
 
 #### Light Theme
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/cap-mobile-light.png" width="600px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/cap-mobile-light.png" width="300px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/notfound-mobile-light.png" width="600px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="/images/notfound-mobile-light.png" width="300px">
 </p>
 
 ## Como executar o projeto
