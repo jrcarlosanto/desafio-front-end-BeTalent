@@ -4,18 +4,18 @@ import arrowDown from '../../assets/arrow-down.svg';
 import arrowUp from '../../assets/arrow-up.svg';
 import { Img, Button, Card, Infomations, Infomation, H3Inf, H2Title,
   H3InfHead } from './styles';
- 
+
 function Accordion({ name, job, admission_date, phone, image }: Employee) {
   const [isVisible, setIsVisible] = useState(false);
- 
+
   const showDetails = () => {
     setIsVisible(!isVisible);
   };
- 
+
   return (
     <Card>
       <Button onClick={ showDetails }>
-        <Img src={ image } alt={ name } />
+        <Img src={ image } alt={ name } data-testid="button-accodion" />
         <H3InfHead>{ name}</H3InfHead>
         <img src={ isVisible ? arrowUp : arrowDown } alt="arrow" />
       </Button>
@@ -39,6 +39,5 @@ function Accordion({ name, job, admission_date, phone, image }: Employee) {
     </Card>
   );
 }
- 
+
 export default Accordion;
- 

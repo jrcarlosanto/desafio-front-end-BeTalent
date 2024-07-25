@@ -1,12 +1,12 @@
 import { formatDate, formatPhone } from '../../services/formatFunctions';
 import { ListOfEmployees } from '../../types';
 import { Container, Img, TableElemt, Td, Th, Thead, TrBody } from './styles';
- 
+
 type TableType = {
   head: string[];
   data: ListOfEmployees;
 };
- 
+
 function Table({ head, data }: TableType) {
   return (
     <Container>
@@ -41,6 +41,5 @@ function Table({ head, data }: TableType) {
     </Container>
   );
 }
- 
+
 export default Table;
- 

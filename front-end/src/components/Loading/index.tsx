@@ -1,10 +1,10 @@
 import loadingIcon from '../../assets/spinner.svg';
 import { Div } from './styles';
- 
+
 type LoadingType = {
   styledHeight?: React.CSSProperties;
 };
- 
+
 function Loading({ styledHeight = { height: '100vh' } }: LoadingType) {
   return (
     <Div style={ styledHeight }>
@@ -12,5 +12,5 @@ function Loading({ styledHeight = { height: '100vh' } }: LoadingType) {
     </Div>
   );
 }
- 
+
 export default Loading;

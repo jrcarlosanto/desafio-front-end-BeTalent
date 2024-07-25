@@ -1,12 +1,12 @@
 import styled from 'styled-components';
- 
+
 export const TableElemt = styled.table`
   width: 335px;
   border-collapse: collapse;
   border-radius: 8px 8px 0px 0px;
   overflow: hidden; 
 `;
- 
+
 export const Thead = styled.thead`
   height: 47px;
   top: 172px;
@@ -21,7 +21,7 @@ export const Thead = styled.thead`
   justify-content: space-between;
   align-items: center;
 `;
- 
+
 export const TrHead = styled.tr`
   width: 100%;
   display: flex;
@@ -31,22 +31,22 @@ export const TrHead = styled.tr`
     margin-left: -18px;
   }
 `;
- 
+
 export const Img = styled.img`
   margin-right: 9px;
 `;
- 
+
 export const Th = styled.th`
-  color: rgba(255, 255, 255, 1);
+  color: ${(props) => props.theme.colors.secondaryText};
   height: 19px;
 `;
- 
+
 export const Tr = styled.tr`
   width: 100%;
   border-bottom: 2px solid;
-  border-color: #F0F0F0;
+  border-color: ${(props) => props.theme.colors.primary};
 `;
- 
+
 export const Td = styled.td`
   height: 50px;
   gap: 0px;
@@ -55,7 +55,7 @@ export const Td = styled.td`
   font-weight: 400;
   line-height: 18.75px;
   text-align: center;
-  color: rgba(28, 28, 28, 1);
   border-bottom: 1px solid #ddd;
-  background-color: rgba(255, 255, 255, 1);
+  color: ${(props) => props.theme.colors.primaryText};
+  background: ${(props) => props.theme.colors.secondary};
 `;

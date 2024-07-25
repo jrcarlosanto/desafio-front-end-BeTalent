@@ -1,5 +1,5 @@
 import { Container, Img, InputElement } from './styles';
- 
+
 type InputType = {
   name: string;
   type: string;
@@ -10,7 +10,7 @@ type InputType = {
   width?: string;
   image?: string;
 };
- 
+
 function Input(
   { name, id, type, value, placeholder = '', onChange, width = '287px',
     image = '' }: InputType,
@@ -32,5 +32,5 @@ function Input(
     </Container>
   );
 }
- 
+
 export default Input;

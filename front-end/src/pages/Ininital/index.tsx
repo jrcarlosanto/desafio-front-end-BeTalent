@@ -7,14 +7,14 @@ import { getEmployees } from '../../services/getEmployees';
 import { ListOfEmployees } from '../../types';
 import MobileTable from '../../components/MobileTable';
 import Loading from '../../components/Loading';
- 
+
 function Initial() {
   const [input, setInput] = useState('');
   const [fixedEmployees, setFixedEmployees] = useState<ListOfEmployees>([]);
   const [employees, setEmployees] = useState<ListOfEmployees>([]);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [loading, setLoading] = useState(false);
- 
+
   useEffect(() => {
     setLoading(true);
     getEmployees().then((response) => {
@@ -23,7 +23,7 @@ function Initial() {
       setLoading(false);
     });
   }, []);
- 
+
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
@@ -33,16 +33,16 @@ function Initial() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
- 
+
   const handleChangeInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target;
     setInput(value);
     filterEmployees(value);
   };
- 
+
   const head = ['FOTO', 'NOME', 'CARGO', 'DATA DE ADMISSÃO', 'TELEFONE'];
   const headModbile = ['FOTO', 'NOME'];
- 
+
   const filterEmployees = (value: string) => {
     setLoading(true);
     const search = value.toLocaleLowerCase();
@@ -56,7 +56,7 @@ function Initial() {
     }
     setLoading(false);
   };
- 
+
   return (
     <>
       <Section>
@@ -68,7 +68,7 @@ function Initial() {
           value={ input }
           placeholder="Pesquisar"
           onChange={ handleChangeInput }
-          width={ window.innerWidth > 600? "287px": "335px" }
+          width={ window.innerWidth > 600 ? '287px' : '335px' }
           image={ serach }
         />
       </Section>
@@ -92,6 +92,5 @@ function Initial() {
     </>
   );
 }
- 
+
 export default Initial;
- 

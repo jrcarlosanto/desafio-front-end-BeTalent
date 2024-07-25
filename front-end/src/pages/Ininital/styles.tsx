@@ -1,5 +1,5 @@
 import styled from 'styled-components';
- 
+
 export const Section = styled.section`
   width: 90%;
   display: flex;
@@ -12,7 +12,7 @@ export const Section = styled.section`
     width: 335px;
   }
 `;
- 
+
 export const Title = styled.h1`
   width: 139px;
   height: 28px;
@@ -20,8 +20,10 @@ export const Title = styled.h1`
   font-weight: 500;
   line-height: 28.13px;
   text-align: left;
+  color: ${(props) => props.theme.colors.primaryText};
+
 `;
- 
+
 export const SectionTable = styled.section`
   width: 100%;
   display: flex;

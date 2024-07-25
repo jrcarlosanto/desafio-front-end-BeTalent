@@ -3,12 +3,12 @@ import elipse from '../../assets/elipse.svg';
 import Accordion from '../Accordion';
 import { formatDate, formatPhone } from '../../services/formatFunctions';
 import { Img, TableElemt, Td, Th, Thead, Tr, TrHead } from './styles';
- 
+
 type TableType = {
   head: string[];
   data: ListOfEmployees;
 };
- 
+
 function MobileTable({ head, data }: TableType) {
   return (
     <div>
@@ -50,5 +50,5 @@ function MobileTable({ head, data }: TableType) {
     </div>
   );
 }
- 
+
 export default MobileTable;
