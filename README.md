@@ -7,25 +7,32 @@
 Tabela de conteúdos
 =================
 <!--ts-->
+   * [Sobre](#sobre)
    * [Desafio](#desafio)
-     * [Mock](#mock)
-     * [Requisitos Gerais](requisitos-gerais)
-     * [Acesso aos dados da API simulada](#acesso-aos-dados-da-API-simulada)
+     * [Mockup](#mockup)
+     * [Requisitos Gerais](#requisitos-gerais)
+     * [Acesso aos dados da API simulada](#acesso-aos-dados-da-api-simulada)
      * [Critérios de Avaliação](#critérios-de-avaliação)
    * [Layout](#layout)
      * [Web](#web)
      * [Mobile](#mobile)
    * [Como executar o projeto](#como-executar-o-projeto)
      * [Pré-requisitos pelo VSCode](#pré-requisitos-pelo-vscode)
-     * [Rodando pelo VSCode)](#rodando-pelo-vscode)
+     * [Rodando pelo VSCode](#rodando-pelo-vscode)
      * [Pré-requisitos pelo Docker](#pré-requisitos-pelo-docker)
      * [Rodando pelo Docker)](#rodando-pelo-docker)
      * [Testes](#testes)
      * [Coverage](#coverage)
+     * [ESLint](#eslint)
+   * [Deploy](#deploy)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
    * [Licença](#licença)
 <!--te-->
+
+## Sobre
+
+Projeto feito com base em um Teste Técnico para Front-End da Be. Abaixo estão as instruções do desafio.
 
 ## Desafio
 
@@ -136,10 +143,34 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 Na raiz do projeto.
 
+#### Comandos para o json-server.
+
+```bash
+
+# Entrar na pasta do json-server
+$ cd json-server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ npm run start
+
+# O servidor inciará na porta:3000 - acesse http://0.0.0.0:3000
+
+```
+
+#### Comandos para o front.
+
+Abra outro terminal.
+
 ```bash
 
 # Clone este repositório
 $ git clone git@github.com:jrcarlosanto/desafio-front-end-BeTalent.git
+
+# Entrar na pasta do front
+$ cd front-end
 
 # Instale as dependências
 $ npm install
@@ -150,7 +181,6 @@ $ npm run dev
 # O servidor inciará na porta:5173 - acesse http://localhost:5173 
 
 ```
-É necessário deixar o json-server rodando para que os dados sejam visualizados no projeto. Acesse a explicação o tópico Acesso aos dados da API simulada para uma maior explicação.
 
 ### Pré-requisitos Docker Compose
 
@@ -201,6 +231,26 @@ $ cd front-end
 $ npm run coverage
 
 ```
+
+### ESlint
+
+```bash
+
+# Entre na pasta da aplicação
+$ cd front-end
+
+# Execute os testes
+$ npm run lint
+
+```
+
+## Deploy
+
+- Deploy do front feito no [Vercel](https://vercel.com/)
+- [Link](https://desafio-front-end-be-talent.vercel.app/) da aplicação.
+
+- Deploy do json-server feito no [Railway](https://railway.app/)
+- [Link](https://desafio-front-end-betalent-production.up.railway.app) da aplicação.
 
 ## Tecnologias
 
