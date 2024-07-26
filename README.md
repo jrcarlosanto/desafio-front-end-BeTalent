@@ -141,11 +141,12 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ### Rodando pelo VSCode
 
-Na raiz do projeto.
-
 #### Comandos para o json-server.
 
 ```bash
+
+# Clone este repositório
+$ git clone git@github.com:jrcarlosanto/desafio-front-end-BeTalent.git
 
 # Entrar na pasta do json-server
 $ cd json-server
@@ -165,9 +166,6 @@ $ npm run start
 Abra outro terminal.
 
 ```bash
-
-# Clone este repositório
-$ git clone git@github.com:jrcarlosanto/desafio-front-end-BeTalent.git
 
 # Entrar na pasta do front
 $ cd front-end
