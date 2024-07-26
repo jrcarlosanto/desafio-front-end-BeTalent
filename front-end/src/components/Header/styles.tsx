@@ -31,8 +31,14 @@ export const ButtonTheme = styled.button`
   }
 `;
 
+export const Container = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const Main = styled.main`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 2000px;
 `;

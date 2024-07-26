@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
-import { ButtonTheme, HeaderBox, Img, Main } from './styles';
+import { ButtonTheme, Container, HeaderBox, Img, Main } from './styles';
 import iconSun from '../../assets/sun.svg';
 import iconMoon from '../../assets/moon.svg';
 
@@ -18,9 +18,11 @@ function Header({ toggleTheme, isDarkTheme }: HeaderType) {
           <img src={ isDarkTheme ? iconSun : iconMoon } alt="Toggle theme" />
         </ButtonTheme>
       </HeaderBox>
-      <Main data-testid="main">
-        <Outlet />
-      </Main>
+      <Container>
+        <Main data-testid="main">
+          <Outlet />
+        </Main>
+      </Container>
     </>
   );
 }
