@@ -244,7 +244,7 @@ $ npm run lint
 
 ## Deploy
 
-- Deploy do front feito no [Vercel](https://vercel.com/)
+- Deploy do front feito no [Vercel](https://vercel.com/) 
 - [Link](https://desafio-front-end-be-talent.vercel.app/) da aplicação.
 
 - Deploy do json-server feito no [Railway](https://railway.app/)
