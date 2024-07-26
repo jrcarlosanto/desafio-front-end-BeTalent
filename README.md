@@ -1,9 +1,5 @@
 # Teste Técnico Front-end Be
 
-<p align="center">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
-</p>
-
 Tabela de conteúdos
 =================
 <!--ts-->
@@ -17,10 +13,10 @@ Tabela de conteúdos
      * [Web](#web)
      * [Mobile](#mobile)
    * [Como executar o projeto](#como-executar-o-projeto)
-     * [Pré-requisitos pelo VSCode](#pré-requisitos-pelo-vscode)
+     * [Pré-requisitos](#pré-requisitos)
      * [Rodando pelo VSCode](#rodando-pelo-vscode)
-     * [Pré-requisitos pelo Docker](#pré-requisitos-pelo-docker)
-     * [Rodando pelo Docker)](#rodando-pelo-docker)
+     * [Pré-requisitos Docker Compose](#pré-requisitos-docker-compose)
+     * [Rodando pelo Docker](#rodando-pelo-docker)
      * [Testes](#testes)
      * [Coverage](#coverage)
      * [ESLint](#eslint)
@@ -186,8 +182,6 @@ Segui os tutorias para a instalação do [Docker](https://docs.docker.com/deskto
 
 ### Rodando pelo Docker
 
-Na raiz do projeto.
-
 ```bash
 
 # Clone este repositório
@@ -208,6 +202,8 @@ $ docker-compose down
 ```
 ### Testes
 
+Abra outro terminal.
+
 ```bash
 
 # Entre na pasta da aplicação
@@ -220,6 +216,8 @@ $ npm run test
 
 ### Coverage
 
+Abra outro terminal.
+
 ```bash
 
 # Entre na pasta da aplicação
@@ -231,6 +229,8 @@ $ npm run coverage
 ```
 
 ### ESlint
+
+Abra outro terminal.
 
 ```bash
 
