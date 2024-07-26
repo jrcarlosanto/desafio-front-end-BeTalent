@@ -12,6 +12,10 @@ export const Section = styled.section`
   @media (max-width: 600px){
     width: 335px;
   }
+
+  @media (min-width: 1447px){
+    width: 100%;
+  }
 `;
 
 export const Title = styled.h1`
