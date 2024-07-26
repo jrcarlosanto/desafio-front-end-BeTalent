@@ -7,6 +7,7 @@ export const Section = styled.section`
   justify-content: space-between;
   align-items: center;
   min-height: 120px;
+  max-width: 1300px;
  
   @media (max-width: 600px){
     width: 335px;
@@ -29,4 +30,5 @@ export const SectionTable = styled.section`
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  max-width: 1300px;
 `;

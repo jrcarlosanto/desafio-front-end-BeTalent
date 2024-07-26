@@ -11,6 +11,11 @@ export const TableElemt = styled.table`
   border-collapse: collapse;
   border-radius: 8px 8px 0px 0px;
   overflow: hidden;
+  margin-bottom: 40px;
+  
+  @media (min-width: 1447px){
+    width: 100%;
+  }
 `;
 
 export const Thead = styled.thead`

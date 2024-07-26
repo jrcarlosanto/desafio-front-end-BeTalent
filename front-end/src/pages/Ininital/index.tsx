@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Input from '../../components/Input';
-import { Section, SectionTable, Title } from './styles';
+import { Container, Section, SectionTable, Title } from './styles';
 import serach from '../../assets/search.svg';
 import Table from '../../components/Table';
 import { getEmployees } from '../../services/getEmployees';
