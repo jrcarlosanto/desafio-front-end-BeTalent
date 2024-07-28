@@ -206,7 +206,8 @@ Se você estiver rodando pelo docker vai ser necessário abrir o terminal no doc
 
 ```bash
 
-# Entre na pasta da aplicação. Esse comando só se aplicar ao roda no terminal localmente. No docker não precisa.
+# Entre na pasta da aplicação. Esse comando só se aplicar ao roda no terminal localmente.
+# No docker não precisa.
 $ cd front-end
 
 # Execute os testes
@@ -220,7 +221,8 @@ Se você estiver rodando pelo docker vai ser necessário abrir o terminal no doc
 
 ```bash
 
-# Entre na pasta da aplicação. Esse comando só se aplicar ao roda no terminal localmente. No docker não precisa.
+# Entre na pasta da aplicação. Esse comando só se aplicar ao roda no terminal localmente.
+# No docker não precisa.
 $ cd front-end
 
 # Execute os testes
@@ -235,6 +237,7 @@ Se você estiver rodando pelo docker vai ser necessário abrir o terminal no doc
 ```bash
 
 # Entre na pasta da aplicação. Esse comando só se aplicar ao roda no terminal localmente. No docker não precisa.
+# No docker não precisa.
 $ cd front-end
 
 # Execute os testes
