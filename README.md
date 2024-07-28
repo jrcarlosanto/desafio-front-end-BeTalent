@@ -202,7 +202,7 @@ $ docker-compose down
 ```
 ### Testes
 
-Abra outro terminal.
+Se você estiver rodando pelo docker vai ser necessário abrir o terminal no docker da aplicação ou se for rodar no terminal localmente vai ser necessário um npm install.
 
 ```bash
 
@@ -216,7 +216,7 @@ $ npm run test
 
 ### Coverage
 
-Abra outro terminal.
+Se você estiver rodando pelo docker vai ser necessário abrir o terminal no docker da aplicação ou se for rodar no terminal localmente vai ser necessário um npm install.
 
 ```bash
 
@@ -230,7 +230,7 @@ $ npm run coverage
 
 ### ESlint
 
-Abra outro terminal.
+Se você estiver rodando pelo docker vai ser necessário abrir o terminal no docker da aplicação ou se for rodar no terminal localmente vai ser necessário um npm install.
 
 ```bash
 
