@@ -9,3 +9,5 @@ COPY ./front-end/package*.json .
 RUN npm install
 
 COPY ./front-end .
+
+ENTRYPOINT [ "npm", "run", "docker" ]
